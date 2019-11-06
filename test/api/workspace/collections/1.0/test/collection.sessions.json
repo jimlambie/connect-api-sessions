@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "expires": {
+      "type": "DateTime",
+      "required": true
+    },
+    "key": {
+      "type": "String",
+      "required": true,
+      "label": "Key"
+    },
+    "value": {
+      "type": "String",
+      "required": false
+    }
+  },
+  "settings": {
+    "storeRevisions": false,
+    "authenticate": false,
+    "cache": false,
+    "compose": false,
+    "displayName": "Sessions",
+    "index": [
+      {
+        "keys": {
+          "key": 1
+        }
+      }
+    ]
+  }
+}
